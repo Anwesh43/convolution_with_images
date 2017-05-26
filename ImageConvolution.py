@@ -10,3 +10,4 @@ class ImageConvolution:
         im_convolved = convolve2d(self.im,A)
         plt.imshow(im_convolved,cmap='gray')
         plt.show()
+        return im_convolved
